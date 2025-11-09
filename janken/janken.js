@@ -78,7 +78,7 @@ if (random===0){
     // この下は消さない
 });
 
-
+gi
 
 
 $(".z").on("click", function(){
