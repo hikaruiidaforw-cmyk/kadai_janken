@@ -35,3 +35,61 @@ img{
       display: flex;
   justify-content: center;
 }
+
+.ten,.ten1{
+    display: flex;
+    justify-content: center;  
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.a,.a2,.a3 {
+  /* 最初は非表示（opacity: 0;）にしておく */
+  opacity: 0;
+
+  /* アニメーション名、持続時間、遅延時間、再生回数などを設定 */
+  animation-name: fadeIn;
+  animation-duration: 1s; /* アニメーションの実行時間 */
+  animation-delay: 3s;    /* 3秒後にアニメーション開始 */
+  animation-fill-mode: forwards; /* アニメーション終了後、終了時の状態を維持 */
+  animation-iteration-count: 1; /* 1回だけ実行 */
+}
+.c,.ten {
+  /* 最初は非表示（opacity: 0;）にしておく */
+  opacity: 0;
+
+  /* アニメーション名、持続時間、遅延時間、再生回数などを設定 */
+  animation-name: fadeIn;
+  animation-duration: 1s; /* アニメーションの実行時間 */
+  animation-delay: 4s;    /* 3秒後にアニメーション開始 */
+  animation-fill-mode: forwards; /* アニメーション終了後、終了時の状態を維持 */
+  animation-iteration-count: 1; /* 1回だけ実行 */
+}
+
+.riset{
+
+  margin: 50px auto;
+  width: 150px;
+  height: 50px;
+    display: flex;
+    justify-content: center; 
+    background: #b8b3b1;
+    color: #f0eded;
+    border: none;
+    font-size: 20px;
+   text-align:center;
+}
+.l{
+  display: block;
+  width: 600px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 10px;
+}
