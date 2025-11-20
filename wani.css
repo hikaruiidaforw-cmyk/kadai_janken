@@ -1,0 +1,87 @@
+
+
+img.b{
+  animation-name: wani;
+}
+
+.wani1,.wani2,.wani3,.wani4,.wani5{
+  /* animation-name: wani; */
+   animation-name: none;
+  animation-duration: 0.5s;
+  animation-delay: 2s;
+  animation-timing-function:ease-in;
+  animation-fill-mode: backwards;
+  /* animation-iteration-count:infinite; */
+  width: 200px;
+  height: 100px;
+  background-color: chartreuse;
+  text-align: center;
+  margin: 0 0 4px 0;
+  display: block;
+
+}
+@keyframes wani{
+  0%{
+  height: 100px;
+  }
+  
+  100%{
+height: 250px;
+  }
+}
+.waniwani{
+  display: flex;
+ justify-content: center;
+  gap: 40px;
+ }
+
+.ue{
+  background-color: #a0e8eb;
+  height: 400px;
+}
+
+.sita{
+    background-color: #e0c987;
+  height: 200px;
+}
+
+.wanib1,.wanib2,.wanib3,.wanib4,.wanib5{
+  width: 50px;
+  height: 50px;
+  margin-bottom: 50px;
+
+
+
+}
+
+.hito img{
+  width: 60px;
+  display: block;
+  margin-top: 80px;
+}
+
+.hito{
+  display:none;
+}
+
+
+
+.bw{
+    display: flex;
+    justify-content: center;
+    
+}
+
+h1,h2,h3{
+  text-align: center;
+}
+
+.w1,.w2,.w3,.w4,.w5{
+  display: flex;
+  flex-direction: column;  /* 縦に並べる */
+  align-items: center;     /* 中央寄せ */
+}
+
+.wanib{
+  display: flex;
+  gap: 80px;           }
